@@ -1,0 +1,39 @@
+.row{
+    display:flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+}
+/* 主轴 */
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+/* 交叉轴 */
+.item-center{
+    align-items: center;
+}
+.item-start{
+    align-items: flex-start;
+}
+.item-end{
+    align-items: flex-end;
+}
+
+.grow{
+    flex-grow: 1;
+}
+.shrink{
+    flex-shrink: 0;
+}
+
+/* 不换行 */
+.no-wrap{
+    flex-wrap: nowrap;
+}
